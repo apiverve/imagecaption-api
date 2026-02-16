@@ -26,7 +26,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.apiverve:imagecaption-api:1.1.13'
+    implementation 'com.github.apiverve:imagecaption-api:1.1.14'
 }
 ```
 
@@ -47,7 +47,7 @@ ImageCaptionAPIClient client = new ImageCaptionAPIClient("YOUR_API_KEY");
 try {
     // Prepare request parameters
     Map<String, Object> parameters = new HashMap<>();
-    parameters.put("image", "");
+    parameters.put("image", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg");
 
     // Execute the request
     APIResponse response = client.execute(parameters);
