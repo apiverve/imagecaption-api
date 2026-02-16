@@ -222,9 +222,10 @@ from apiverve_imagecaption.apiClient import ImagecaptionAPIClient
 
 api = ImagecaptionAPIClient("[YOUR_API_KEY]")
 
-try:
-    # This API requires a file upload
+# This API requires a file upload
 files = { "image": open("/path/to/image.jpg", "rb") }
+
+try:
     result = api.execute(query)
     print(result)
 finally:
