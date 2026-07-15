@@ -20,7 +20,7 @@ namespace APIVerve.Examples
         private static readonly string API_URL = "https://api.apiverve.com/v1/imagecaption";
 
         /// <summary>
-        /// Make a GET request to the Image Caption API
+        /// Make a POST request to the Image Caption API
         /// </summary>
         static async Task<JsonDocument> CallImageCaptionAPI()
         {
@@ -29,7 +29,13 @@ namespace APIVerve.Examples
                 using var client = new HttpClient();
                 client.DefaultRequestHeaders.Add("x-api-key", API_KEY);
 
-                var response = await client.GetAsync(API_URL);
+                // Request body
+                var requestBody &#x3D; new { image &#x3D; &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg&quot; };
+
+                var jsonContent = JsonSerializer.Serialize(requestBody);
+                var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+
+                var response = await client.PostAsync(API_URL, content);
 
                 // Check if response is successful
                 response.EnsureSuccessStatusCode();
