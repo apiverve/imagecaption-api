@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/imagecaption",
-  "version": "1.2.0",
-  "description": "Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents.",
+  "version": "1.2.2",
+  "description": "Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/imagecaption-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/imagecaption?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/imagecaption?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
