@@ -10,14 +10,14 @@ if os.path.exists(requirements_file):
 
 setup(
     name='apiverve_imagecaption',
-    version='1.1.14',
+    version='1.2.2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,
-    description='Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents.',
+    description='Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging.',
     author='APIVerve',
     author_email='hello@apiverve.com',
-    url='https://apiverve.com/marketplace/imagecaption?utm_source=pypi&utm_medium=homepage',
+    url='https://apiverve.com/marketplace/imagecaption?utm_source=pypi&utm_medium=referral&utm_content=homepage',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',

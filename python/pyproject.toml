@@ -1,13 +1,13 @@
 [project]
 name = "apiverve-imagecaption"
-version = "1.1.14"
+version = "1.2.2"
 authors = [
   { name="APIVerve", email="hello@apiverve.com" },
 ]
-description = "Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents."
-keywords = []
+description = "Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging."
+keywords = ["image caption", "image description", "image to text", "ai image caption", "describe image"]
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 license = {text = "MIT"}
 dependencies = [
     "requests>=2.25.0"
@@ -17,35 +17,13 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
     "Intended Audience :: Developers",
-    "Intended Audience :: Financial and Insurance Industry",
-    "Intended Audience :: Healthcare Industry",
-    "Intended Audience :: Education",
-    "Intended Audience :: Science/Research",
-    "Intended Audience :: Information Technology",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Utilities",
-    "Topic :: Scientific/Engineering",
-    "Topic :: Education",
-    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
-    "Topic :: Internet :: WWW/HTTP :: Site Management",
     "Topic :: Internet :: WWW/HTTP",
-    "Topic :: Software Development :: Libraries",
-    "Topic :: Software Development :: Libraries :: Application Frameworks",
-    "Topic :: Internet",
-    "Topic :: Communications",
-    "Topic :: Office/Business",
-    "Topic :: Text Processing",
-    "Topic :: Security",
-    "Topic :: Database",
-    "Topic :: Software Development :: Code Generators",
-    "Topic :: Software Development :: Pre-processors",
-    "Topic :: Software Development :: Quality Assurance",
-    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
     "Natural Language :: English",
 ]
 
 [project.urls]
-Homepage = "https://apiverve.com?utm_source=pypi"
+Homepage = "https://apiverve.com/marketplace/imagecaption?utm_source=pypi&utm_medium=referral&utm_content=homepage"
+Documentation = "https://docs.apiverve.com/ref/imagecaption?utm_source=pypi&utm_medium=referral&utm_content=docs"
 Repository = "https://github.com/apiverve/imagecaption-api"
-Documentation = "https://docs.apiverve.com/api/imagecaption?utm_source=pypi"
 Twitter = "https://twitter.com/apivervehq"
