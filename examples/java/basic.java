@@ -14,7 +14,7 @@ public class BasicExample {
         try {
             // Request body
             Map&lt;String, Object&gt; parameters &#x3D; new HashMap&lt;&gt;();
-        parameters.put(&quot;image&quot;, &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg&quot;);
+        parameters.put(&quot;image&quot;, &quot;https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg&quot;);
 
             // Execute the API request
             APIResponse response = client.execute(parameters);

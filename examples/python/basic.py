@@ -19,7 +19,7 @@ def call_imagecaption_api():
     try:
         # Request body
         request_body &#x3D; {
-    &#x27;image&#x27;: &#x27;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg&#x27;
+    &#x27;image&#x27;: &#x27;https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg&#x27;
 }
 
         headers = {

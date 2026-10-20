@@ -15,7 +15,7 @@ async function callImageCaptionAPI() {
   try {
     // Request body
     const requestBody &#x3D; {
-    &quot;image&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg&quot;
+    &quot;image&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg&quot;
 };
 
     const response = await fetch(API_URL, {

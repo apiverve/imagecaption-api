@@ -1,13 +1,13 @@
-# [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents.
+Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging.
 
 The Image Caption API provides a simple, reliable way to integrate image caption functionality into your applications. Built for developers who need production-ready image caption capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-POST-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -31,7 +31,7 @@ The Image Caption API provides a simple, reliable way to integrate image caption
 async function callImageCaptionAPI() {
     try {
         const requestBody = {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg"
 };
 
         const response = await fetch('https://api.apiverve.com/v1/imagecaption', {
@@ -165,7 +165,7 @@ go get github.com/apiverve/imagecaption-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/imagecaption](https://docs.apiverve.com/ref/imagecaption)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -224,7 +224,7 @@ A real response from the Image Caption API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)

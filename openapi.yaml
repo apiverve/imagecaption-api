@@ -2,9 +2,9 @@ openapi: 3.0.4
 info:
   title: Image Caption
   description: >-
-    Image Caption is an AI-powered tool that generates descriptive captions for
-    images. Simply upload an image and receive a natural language description of
-    its contents.
+    Image Caption generates natural language descriptions for uploaded image
+    files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption
+    for alt text and media tagging.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -19,7 +19,7 @@ servers:
 paths:
   /v1/imagecaption:
     post:
-      summary: Caption Image
+      summary: Image Caption
       description: >-
         Image Caption is an AI-powered tool that generates descriptive captions
         for images. Simply upload an image and receive a natural language
@@ -67,12 +67,12 @@ paths:
                   type: string
                   format: binary
                   description: 'File to upload (accepted: .jpg, .jpeg, .png, .gif, max 5MB)'
-                  acceptedTypes:
+                  x-acceptedTypes:
                     - .jpg
                     - .jpeg
                     - .png
                     - .gif
-                  maxSizeMB: 5
+                  x-maxSizeMB: 5
               required:
                 - image
 components:
@@ -84,5 +84,4 @@ components:
 security:
   - api_key: []
 sampleRequest:
-  image: >-
-    https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg
+  image: https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg
