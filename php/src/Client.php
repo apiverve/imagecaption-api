@@ -15,11 +15,11 @@ use APIVerve\Imagecaption\Exceptions\ValidationException;
  * @example Basic usage
  * ```php
  * $client = new Client('your_api_key');
- * $response = $client->execute(['image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg']);
+ * $response = $client->execute(['image' => 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg']);
  * print_r($response);
  * ```
  *
- * @see https://apiverve.com/marketplace/imagecaption?utm_source=php&utm_medium=readme
+ * @see https://apiverve.com/marketplace/imagecaption?utm_source=php&utm_medium=referral&utm_content=readme
  */
 class Client
 {

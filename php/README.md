@@ -1,6 +1,6 @@
 # Image Caption API - PHP Package
 
-Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents.
+Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging.
 
 ## Installation
 
@@ -27,7 +27,7 @@ use APIVerve\Imagecaption\Client;
 $client = new Client('YOUR_API_KEY');
 
 // Make a request
-$response = $client->execute(['image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg']);
+$response = $client->execute(['image' => 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg']);
 
 // Print the response
 print_r($response);
@@ -51,7 +51,7 @@ use APIVerve\Imagecaption\Exceptions\APIException;
 use APIVerve\Imagecaption\Exceptions\ValidationException;
 
 try {
-    $response = $client->execute(['image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg']);
+    $response = $client->execute(['image' => 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg']);
     print_r($response['data']);
 } catch (ValidationException $e) {
     echo "Validation error: " . implode(', ', $e->getErrors());
@@ -90,11 +90,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/imagecaption?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/imagecaption?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/imagecaption?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/imagecaption?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/imagecaption?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/imagecaption?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
