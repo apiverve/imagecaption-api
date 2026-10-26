@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/imagecaption",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging.",
   "main": "index.js",
   "types": "index.d.ts",
