@@ -1,7 +1,7 @@
 name: apiverve_imagecaption
-description: Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=homepage
+description: "Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging."
+version: 1.2.4
+homepage: https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/imagecaption-api/tree/main/dart
 
 environment:

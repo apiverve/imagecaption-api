@@ -1,11 +1,11 @@
 # Image Caption API - Dart/Flutter Client
 
-Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents.
+Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_imagecaption.svg)](https://pub.dev/packages/apiverve_imagecaption)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_imagecaption: ^1.1.14
+  apiverve_imagecaption: ^1.2.4
 ```
 
 Then run:
@@ -33,9 +33,8 @@ void main() async {
   final client = ImagecaptionClient('YOUR_API_KEY');
 
   try {
-    final response = await client.execute({
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/640px-Cat03.jpg'
-    });
+    // This API requires a file upload — a JSON body is rejected with a 400.
+    final response = await client.executeWithFile('/path/to/your-file');
 
     print('Status: ${response.status}');
     print('Data: ${response.data}');
@@ -59,12 +58,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/imagecaption](https://docs.apiverve.com/ref/imagecaption?utm_source=dart&utm_medium=readme)
+- **API Home:** [Image Caption API](https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/imagecaption](https://docs.apiverve.com/ref/imagecaption?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -72,4 +71,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

@@ -48,7 +48,7 @@ final _formatPatterns = {
 
 /// Image Caption API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [image] (required) - Upload an image file to generate a caption (supported formats: JPG, PNG, GIF, max 5MB)

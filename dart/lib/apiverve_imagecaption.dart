@@ -1,8 +1,8 @@
 /// Image Caption API client for Dart/Flutter
 ///
-/// Image Caption is an AI-powered tool that generates descriptive captions for images. Simply upload an image and receive a natural language description of its contents.
+/// Image Caption generates natural language descriptions for uploaded image files. Upload a JPG, PNG, or GIF up to 5MB to receive an automated caption for alt text and media tagging.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/imagecaption?utm_source=dart&utm_medium=referral&utm_content=readme
 library apiverve_imagecaption;
 
 export 'src/client.dart';
